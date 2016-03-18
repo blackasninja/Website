@@ -1,15 +1,54 @@
+@using System.Web.Optimization
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
-    <script src="~/Scripts/jquery-2.2.0.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
-    @RenderSection("head", required: false)
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@Page.Title</title>
+        @RenderSection("head", required: false)
+        @Styles.Render("~/Content/css")
+        @Styles.Render("~/Content")
 </head>
 <body>
-    <h1>This is from the _ViewStart.cshtml</h1>
-    @RenderBody()
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Beverages</a></li>
+                                <li><a href="#">Condiments</a></li>
+                                <li><a href="#">Confections</a></li>
+                                <li><a href="#">Dairy Products</a></li>
+                                <li><a href="#">Grains/Cereals</a></li>
+                                <li><a href="#">Meat/Poultry</a></li>
+                                <li><a href="#">Produce</a></li>
+                                <li><a href="#">Seafood</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+        <div class="jumbotron" id="header-jumbotron">
+            <h2>Northwind Store</h2>
+        </div>
+    </header>
+@RenderBody()
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
 </body>
 </html>
