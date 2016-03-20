@@ -1,0 +1,44 @@
+@import "_variables.less";
+
+
+body {
+	background: @dark-gray;
+}
+#navbar {
+	margin-left: 50px;
+}
+.navbar {
+	background-color: @base-purple;
+	color:@white !important;
+    padding-bottom:0px !important;
+    border: 0px solid transparent;
+    margin-bottom:0px !important;
+    &-brand{
+	    color:@white !important;
+    }
+    &-nav{
+        .active{      
+            a{          
+                background:darken(@base-purple ,10%) !important;
+            }
+        }
+        a{
+	        color:@white !important;
+            background:darken(@base-purple ,5%);
+        }
+    }
+}
+
+#header{
+	&-jumbotron{
+		background-color: #6f5499;
+		 h2{
+			margin-left: 40px;
+			color: #fff;
+			margin-top: 50px;
+		}
+	} 
+}
+.jumbotron{
+    padding-top: 0px;
+}

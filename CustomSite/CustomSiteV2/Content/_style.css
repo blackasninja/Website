@@ -1,0 +1,34 @@
+﻿body {
+  background: #39454b;
+}
+#navbar {
+  margin-left: 50px;
+}
+.navbar {
+  background-color: #6f5499;
+  color: #FFFFFF !important;
+  padding-bottom: 0px !important;
+  border: 0px solid transparent;
+  margin-bottom: 0px !important;
+}
+.navbar-brand {
+  color: #FFFFFF !important;
+}
+.navbar-nav .active a {
+  background: #574278 !important;
+}
+.navbar-nav a {
+  color: #FFFFFF !important;
+  background: #634b89;
+}
+#header-jumbotron {
+  background-color: #6f5499;
+}
+#header-jumbotron h2 {
+  margin-left: 40px;
+  color: #fff;
+  margin-top: 50px;
+}
+.jumbotron {
+  padding-top: 0px;
+}
