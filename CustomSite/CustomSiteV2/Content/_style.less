@@ -1,4 +1,5 @@
 @import "_variables.less";
+@import "_material-paletee.less";
 
 
 body {
@@ -41,4 +42,20 @@ body {
 }
 .jumbotron{
     padding-top: 0px;
+}
+.box{
+    &-row{
+	    background: @dark-gray;
+        &-item{
+            color:white;
+            background: red;
+            height: 200px;
+            &-1{
+                background:orange;
+            }
+            &-2{
+                background:yellow;
+            }
+        }
+    }
 }

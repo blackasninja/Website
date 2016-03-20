@@ -1,11 +1,15 @@
-﻿body {
+﻿/**
+ * google-material-color v1.2.6
+ * https://github.com/danlevan/google-material-color
+ */
+body {
   background: #39454b;
 }
 #navbar {
   margin-left: 50px;
 }
 .navbar {
-  background-color: #6f5499;
+  background-color: #673AB7;
   color: #FFFFFF !important;
   padding-bottom: 0px !important;
   border: 0px solid transparent;
@@ -15,11 +19,11 @@
   color: #FFFFFF !important;
 }
 .navbar-nav .active a {
-  background: #574278 !important;
+  background: #512e90 !important;
 }
 .navbar-nav a {
   color: #FFFFFF !important;
-  background: #634b89;
+  background: #5c34a4;
 }
 #header-jumbotron {
   background-color: #6f5499;
@@ -31,4 +35,18 @@
 }
 .jumbotron {
   padding-top: 0px;
+}
+.box-row {
+  background: #39454b;
+}
+.box-row-item {
+  color: white;
+  background: red;
+  height: 200px;
+}
+.box-row-item-1 {
+  background: orange;
+}
+.box-row-item-2 {
+  background: yellow;
 }

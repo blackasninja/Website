@@ -241,6 +241,8 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="Content\_variables.less" />
+    <Content Include="Content\_mixins.less" />
+    <Content Include="Content\_material-paletee.less" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -254,6 +256,8 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\_particles.js" />
+    <Content Include="Scripts\_ui.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

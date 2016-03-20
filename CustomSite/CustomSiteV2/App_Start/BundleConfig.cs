@@ -8,6 +8,10 @@ namespace CustomSiteV2
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                           "~/Scripts/jquery-{version}.js"));
+            bundles.Add(new ScriptBundle("~/bundles/js")
+                .Include("~/Scripts/_particles.js")
+                .Include("~/Scripts/_ui.js")
+                );
             bundles.Add(new ScriptBundle("~/bundles/bootstrap")
                     .Include("~/Scripts/bootstrap.js",
                               "~/Scripts/respond.js"));
