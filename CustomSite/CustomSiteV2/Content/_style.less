@@ -41,20 +41,50 @@ body {
 	} 
 }
 .jumbotron{
+    margin-top:50px;
     padding-top: 0px;
+    height:200px;    
+    vertical-align:middle;
+    background: lighten(@dark-gray, 10%);
+    color:white;
+    header{
+        h2{ 
+            vertical-align:middle;           
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    p{        
+        vertical-align:middle;    
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 .box{
     &-row{
 	    background: @dark-gray;
         &-item{
             color:white;
-            background: red;
             height: 200px;
+            line-height: 20px;
+            vertical-align:middle;
+            .middle{          
+                margin-top:40px;
+                margin-bottom:40px;
+                text-align:justify;
+                padding:20px;      
+                vertical-align: middle;
+            }
             &-1{
-                background:orange;
+                background: transparent;
             }
             &-2{
-                background:yellow;
+                background: lighten(@dark-gray, 10%);
+            }
+            p{
+                color: white;
             }
         }
     }

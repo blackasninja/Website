@@ -1,4 +1,4 @@
 
 $(function () {
-    particles();
+    //particles();
 });

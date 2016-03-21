@@ -34,19 +34,47 @@ body {
   margin-top: 50px;
 }
 .jumbotron {
+  margin-top: 50px;
   padding-top: 0px;
+  height: 200px;
+  vertical-align: middle;
+  background: #4f6068;
+  color: white;
+}
+.jumbotron header h2 {
+  vertical-align: middle;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.jumbotron p {
+  vertical-align: middle;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 .box-row {
   background: #39454b;
 }
 .box-row-item {
   color: white;
-  background: red;
   height: 200px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.box-row-item .middle {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
+  padding: 20px;
+  vertical-align: middle;
 }
 .box-row-item-1 {
-  background: orange;
+  background: transparent;
 }
 .box-row-item-2 {
-  background: yellow;
+  background: #4f6068;
+}
+.box-row-item p {
+  color: white;
 }
