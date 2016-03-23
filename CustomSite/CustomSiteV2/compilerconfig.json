@@ -2,5 +2,9 @@
   {
     "outputFile": "Content/_style.css",
     "inputFile": "Content/_style.less"
+  },
+  {
+    "outputFile": "Content/fontAwesome/font-awesome.css",
+    "inputFile": "Content/fontAwesome/font-awesome.less"
   }
 ]

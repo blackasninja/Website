@@ -110,6 +110,13 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\fontAwesome\font-awesome.css">
+      <DependentUpon>font-awesome.less</DependentUpon>
+    </Content>
+    <Content Include="Content\fontAwesome\font-awesome.min.css">
+      <DependentUpon>font-awesome.css</DependentUpon>
+    </Content>
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
@@ -256,6 +263,11 @@
     <Content Include="Content\fontAwesome\rotated-flipped.less" />
     <Content Include="Content\fontAwesome\stacked.less" />
     <Content Include="Content\fontAwesome\variables.less" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
