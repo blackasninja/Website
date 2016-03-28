@@ -4,6 +4,7 @@
 
 body {
 	background: @dark-gray;
+    font-family: 'Roboto', sans-serif;
 }
 #navbar {
 	margin-left: 50px;
@@ -62,6 +63,7 @@ body {
         text-align: center;
     }
 }
+
 .box{
     &-row{
 	    background: @dark-gray;
@@ -74,7 +76,6 @@ body {
                 margin-top:40px;
                 margin-bottom:40px;
                 text-align:justify;
-                padding:20px;      
                 vertical-align: middle;
             }
             &-1{
@@ -83,9 +84,78 @@ body {
             &-2{
                 background: lighten(@dark-gray, 10%);
             }
+            &-3{
+                background: lighten(@dark-gray, 10%);
+            }
+            &-4{
+                background: transparent;
+            }
             p{
                 color: white;
             }
         }
     }
 }
+.fa{
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+	background-color: @base-purple;
+    color:white;
+    .container{        
+        display:inline-flex;
+        .menu{
+            right:0;
+        }
+    }
+    a{
+        color:#CCCCCC;
+    }
+
+    a:hover{
+        color:#EEEEEE;
+    }
+    .actions {
+		left: 1em;
+		top: 0.25em;
+		height: 5em;
+		line-height: 5em;
+		margin: 0;
+        li{
+            display:inline;
+		    font-size: 1.25em;
+		    margin: 0;
+            a {
+                .tooltip{
+                    background:red;
+                    color:white;
+                }
+				padding: 0.5em;
+			}
+        }
+	}
+    .menu {
+		right: 2em;
+		top: 0;
+		height: 5em;
+		line-height: 5em;
+		margin: 0;
+        li {
+			font-size: 0.9em;
+		}
+	}
+}	

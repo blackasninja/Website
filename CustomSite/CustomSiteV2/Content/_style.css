@@ -4,6 +4,7 @@
  */
 body {
   background: #39454b;
+  font-family: 'Roboto', sans-serif;
 }
 #navbar {
   margin-left: 50px;
@@ -66,7 +67,6 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
   text-align: justify;
-  padding: 20px;
   vertical-align: middle;
 }
 .box-row-item-1 {
@@ -75,6 +75,73 @@ body {
 .box-row-item-2 {
   background: #4f6068;
 }
+.box-row-item-3 {
+  background: #4f6068;
+}
+.box-row-item-4 {
+  background: transparent;
+}
 .box-row-item p {
   color: white;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 1.25em;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #673AB7;
+  color: white;
+}
+footer .container {
+  display: inline-flex;
+}
+footer .container .menu {
+  right: 0;
+}
+footer a {
+  color: #CCCCCC;
+}
+footer a:hover {
+  color: #EEEEEE;
+}
+footer .actions {
+  left: 1em;
+  top: 0.25em;
+  height: 5em;
+  line-height: 5em;
+  margin: 0;
+}
+footer .actions li {
+  display: inline;
+  font-size: 1.25em;
+  margin: 0;
+}
+footer .actions li a {
+  padding: 0.5em;
+}
+footer .actions li a .tooltip {
+  background: red;
+  color: white;
+}
+footer .menu {
+  right: 2em;
+  top: 0;
+  height: 5em;
+  line-height: 5em;
+  margin: 0;
+}
+footer .menu li {
+  font-size: 0.9em;
 }

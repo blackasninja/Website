@@ -10,6 +10,7 @@ namespace CustomSiteV2
                           "~/Scripts/jquery-{version}.js"));
             bundles.Add(new ScriptBundle("~/bundles/js")
                 .Include("~/Scripts/_particles.js")
+                .Include("~/Scripts/Jquery.Poptrox.min.js")
                 .Include("~/Scripts/_ui.js")
                 );
             bundles.Add(new ScriptBundle("~/bundles/bootstrap")
@@ -18,6 +19,7 @@ namespace CustomSiteV2
 
             bundles.Add(new StyleBundle("~/Content/css")
                 .Include("~/Content/bootstrap.css")
+                .Include("~/Content/skel-noscript.css")
                 .Include("~/Content/fontAwesome/font-awesome.css", new CssRewriteUrlTransform())
                 .Include("~/Content/_style.css"));
         }
