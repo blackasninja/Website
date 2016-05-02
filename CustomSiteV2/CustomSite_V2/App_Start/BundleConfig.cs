@@ -11,6 +11,9 @@ namespace CustomSite_V2
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/initjs").Include(
+                        "~/Scripts/init.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/materializejs").Include(
                         "~/Content/materialize/js/materialize.js"));
             //Content\materialize\js\materialize.js
