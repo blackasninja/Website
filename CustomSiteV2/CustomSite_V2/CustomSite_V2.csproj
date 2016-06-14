@@ -105,6 +105,7 @@
     <Content Include="Content\images\background1.jpg" />
     <Content Include="Content\images\background2.jpg" />
     <Content Include="Content\images\background3.jpg" />
+    <Content Include="Content\images\logo.png" />
     <Content Include="Content\materialize\css\materialize.css" />
     <Content Include="Content\materialize\css\materialize.min.css" />
     <Content Include="Content\materialize\font\material-design-icons\LICENSE.txt" />
@@ -138,6 +139,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\style.less" />
+    <Content Include="Content\_mixins.less" />
+    <Content Include="Content\mobile.less" />
+    <Content Include="Content\_variable.less" />
     <None Include="gulpfile.js" />
     <Content Include="Content\materialize\js\materialize.js" />
     <Content Include="Content\materialize\js\materialize.min.js" />

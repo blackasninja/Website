@@ -28,7 +28,8 @@ namespace CustomSite_V2
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/materialize/css/materialize.css",
-                "~/Content/style.css"));
+                "~/Content/style.css",
+                "~/Content/mobile.css"));
             
         }
     }
