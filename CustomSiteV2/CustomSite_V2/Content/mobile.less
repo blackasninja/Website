@@ -12,36 +12,33 @@
                 background:green;
             }
             &-container{
-                    padding-top:30px;
-            }
-            &-logo{
-                height:600px//Image height
-                width:50px//Image width
-                line-height:@header-line-height*2;
-                &-img{
-                    height:100%;//Image height
-                    width:100%;//Image width
-                }
+                    padding-top:5px;
             }
             &-txt{
                 height:@header-line-height;
                 line-height:@header-line-height;
                 padding:5px;
                 &.logo{
-                    height:600px//Image height
-                    width:50px//Image width
+                    max-height: 50px;
+                    max-width:200px;
+                    height: 100%;
+                    width: 100%;
                     line-height:@header-line-height*2;
                     img{
+                        max-height: 50px;
+                        max-width:200px;
                         height:100%;//Image height
-                        width:100%;//Image width
+                        width:50%;//Image width
                     }
                 }
                 &.primary-txt{
+                    color:white;
                     font-weight:bold;
                 }
                 &.secondary-txt{
-                height:@header-line-height -2 ;
-                line-height:@header-line-height -2;
+                    color:white;
+                    height:@header-line-height -2 ;
+                    line-height:@header-line-height -2;
                     padding-top:15px;
                 }
             }

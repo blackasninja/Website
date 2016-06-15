@@ -134,6 +134,18 @@
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.woff" />
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.ttf" />
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
+    <Content Include="Content\mobile.css">
+      <DependentUpon>mobile.less</DependentUpon>
+    </Content>
+    <Content Include="Content\mobile.min.css">
+      <DependentUpon>mobile.css</DependentUpon>
+    </Content>
+    <Content Include="Content\style.css">
+      <DependentUpon>style.less</DependentUpon>
+    </Content>
+    <Content Include="Content\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -142,6 +154,10 @@
     <Content Include="Content\_mixins.less" />
     <Content Include="Content\mobile.less" />
     <Content Include="Content\_variable.less" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="gulpfile.js" />
     <Content Include="Content\materialize\js\materialize.js" />
     <Content Include="Content\materialize\js\materialize.min.js" />

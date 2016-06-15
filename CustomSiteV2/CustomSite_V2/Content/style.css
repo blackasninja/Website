@@ -1,14 +1,40 @@
-nav ul a {
-  color: #444444;
+﻿nav ul a {
+  color: #585858;
 }
 nav .brand-logo {
-  color: #444444;
+  color: #585858;
 }
 p {
   line-height: 2rem;
 }
+.nav-header {
+  background-color: #0D47A1;
+  color: white;
+}
+.nav-header .brand-logo {
+  color: white;
+}
+.txt {
+  color: white;
+}
+.txt-primary {
+  color: #0D47A1;
+}
+.button {
+  background-color: #0D47A1;
+  color: white;
+}
 .button-collapse {
-  color: #26a69a;
+  color: white;
+}
+.material-footer {
+  background-color: #0D47A1;
+}
+.material-icons {
+  color: #0D47A1;
+}
+.material-icons.menu {
+  color: white;
 }
 .parallax img {
   display: block;
@@ -44,4 +70,5 @@ p {
 }
 footer.page-footer {
   margin: 0;
+  background-color: #0D47A1;
 }

@@ -1,20 +1,52 @@
-@color0: #444444; 
+@import "_variable.less";
 
 nav {
 	ul {
 		a {
-			color: @color0;
+			color: @color-grey;
 		}
 	}
 	.brand-logo {
-		color: @color0;
+		color: @color-grey;
 	}
 }
 p {
 	line-height: 2rem;
 }
-.button-collapse {
-	color: #26a69a;
+.nav{
+    &-header{
+	    background-color: @primary-dark;
+        color:white;
+        .brand{
+            &-logo{
+                color:white;
+            }
+        }
+    }
+}
+.txt{
+    color:white;
+    &-primary{
+	    color: @primary-dark;
+    }
+}
+.button{
+	background-color: @primary-dark;
+    color:white;
+    &-collapse {
+	    color: white;
+    }
+}
+.material{
+    &-footer{
+        background-color: @primary-dark;
+    }
+    &-icons{
+        color: @primary-dark;
+        &.menu{
+            color:white;
+        }
+    }
 }
 .parallax{
     img{
@@ -54,4 +86,5 @@ p {
 }
 footer.page-footer {
 	margin: 0;
+        background-color: @primary-dark;
 }
