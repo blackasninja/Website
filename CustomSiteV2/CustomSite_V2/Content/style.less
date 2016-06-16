@@ -1,4 +1,5 @@
 @import "_variable.less";
+@import "_mixins.less";
 
 nav {
 	ul {
@@ -23,11 +24,26 @@ p {
             }
         }
     }
+    &-bar{
+        &-link{            
+            color:white;
+            a{
+                color:white;
+            }
+        }
+    }
+}
+.shadow-txt{
+    font-family: 'Viga', sans-serif;
+    .txt-shadow(black, white);
 }
 .txt{
     color:white;
     &-primary{
 	    color: @primary-dark;
+    }
+    &-logo{
+        font-family: 'Viga', sans-serif;
     }
 }
 .button{

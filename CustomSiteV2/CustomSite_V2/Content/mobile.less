@@ -1,45 +1,57 @@
 @import "_variable.less";
 @import "_mixins.less";
 
-.mobile{
-    &-menu{
-        &-header{   
-            vertical-align: bottom;
-            white-space: normal;
-            height:@header-height;
-            .gradient-linear(@primary-color, @secondary-color);
-            &:active{
-                background:green;
-            }
-            &-container{
-                    padding-top:5px;
-            }
-            &-txt{
-                height:@header-line-height;
-                line-height:@header-line-height;
-                padding:5px;
-                &.logo{
-                    max-height: 50px;
-                    max-width:200px;
-                    height: 100%;
-                    width: 100%;
-                    line-height:@header-line-height*2;
-                    img{
+@media only screen and (max-width : 600px) {
+    .mobile{
+        &-menu{
+            &-header{   
+                vertical-align: bottom;
+                white-space: normal;
+                height:@header-height;
+                .gradient-linear(@primary-dark, @secondary-color);
+                &:active{
+                    background:green;
+                }
+                &-container{
+                        padding-top:5px;
+                }
+                &-txt{
+                    height:@header-line-height;
+                    line-height:@header-line-height;
+                    padding:5px;
+                    &.logo{
                         max-height: 50px;
                         max-width:200px;
-                        height:100%;//Image height
-                        width:50%;//Image width
+                        height: 100%;
+                        width: 100%;
+                        line-height:@header-line-height*2;
+                        img{
+                            max-height: 50px;
+                            max-width:200px;
+                            height:100%;//Image height
+                            width:50%;//Image width
+                        }
+                    }
+                    &.primary-txt{
+                        color:white;
+                        font-weight:bold;
+                    }
+                    &.secondary-txt{
+                        color:white;
+                        height:@header-line-height -2 ;
+                        line-height:@header-line-height -2;
+                        padding-top:15px;
                     }
                 }
-                &.primary-txt{
-                    color:white;
-                    font-weight:bold;
-                }
-                &.secondary-txt{
-                    color:white;
-                    height:@header-line-height -2 ;
-                    line-height:@header-line-height -2;
-                    padding-top:15px;
+            }
+        }
+    }   
+    .nav{
+        &-bar{
+            &-link{            
+                color:black;
+                a{
+                    color:black;
                 }
             }
         }

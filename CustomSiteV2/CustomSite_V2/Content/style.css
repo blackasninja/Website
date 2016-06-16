@@ -1,4 +1,4 @@
-﻿nav ul a {
+nav ul a {
   color: #585858;
 }
 nav .brand-logo {
@@ -14,11 +14,26 @@ p {
 .nav-header .brand-logo {
   color: white;
 }
+.nav-bar-link {
+  color: white;
+}
+.nav-bar-link a {
+  color: white;
+}
+.shadow-txt {
+  font-family: 'Viga', sans-serif;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
 .txt {
   color: white;
 }
 .txt-primary {
   color: #0D47A1;
+}
+.txt-logo {
+  font-family: 'Viga', sans-serif;
 }
 .button {
   background-color: #0D47A1;

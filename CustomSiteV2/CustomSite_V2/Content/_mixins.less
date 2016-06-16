@@ -1,3 +1,13 @@
+.txt-shadow (@shadowColor, @txtColor){    
+  -webkit-text-stroke: 1px @shadowColor;    
+  color: @txtColor;  
+  text-shadow:
+    1px 1px 0 @shadowColor,
+   -1px -1px 0 @shadowColor,  
+    1px -1px 0 @shadowColor,
+   -1px  1px 0 @shadowColor,
+    1px  1px 0 @shadowColor;
+}
 
 .gradient-linear (@startColor, @endColor) {
 	background-color: @startColor;
